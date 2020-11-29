@@ -87,7 +87,6 @@ h4 {
 
     .wrapper {
         flex-direction: column;
-        justify-content: center;
     }
 
     .wrapper__left img {
