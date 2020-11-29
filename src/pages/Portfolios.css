@@ -1,0 +1,100 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.wrapper__left {
+    width: 50%;
+    background-color: #ff8b0d;
+    padding: 50px;
+    text-align: center;
+}
+
+.wrapper__left img {
+    width: 60%;
+}
+
+.wrapper__right {
+    width: 50%;
+    padding: 90px 50px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.progress__flask {
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.progress__reactjs {
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.progress__reactnative {
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.my h1 {
+    margin-bottom: 0;
+}
+
+.my h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #444444;
+}
+
+.link a {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+    .wrapper__left {
+        width: 100%;
+        padding: 30px 20px 20px 20px;
+    }
+
+    .wrapper__right {
+        width: 100%;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wrapper__left img {
+        width: 50%;
+    }
+
+    .img {
+        margin-top: 50px;
+    }
+}
